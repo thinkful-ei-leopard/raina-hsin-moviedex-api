@@ -21,7 +21,7 @@ app.use(function validateBearerToken(req, res, next) {
   }
   //move to the next middleware
   next();
-});
+});  
 
 function handleGetMovie(req, res) {
   let response = MOVIES;
